@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Landing</title>
+    <title>Halaman Register</title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 </head>
 
@@ -34,7 +34,7 @@
                             </div>
                         </form>
                         <hr>
-                        <p>Sudah punya akun ? <a href="login.php">Kembali</a></p>
+                        <p>Sudah punya akun ? <a href="login.php">Login</a></p>
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
     </div>
 
 
-    <footer class="d-flex justify-content-center border-top mt-3 bg-light fixed-bottom">
+    <footer class="d-flex justify-content-center border-top mt-3 text-info bg-dark fixed-bottom">
         <p>&copy; UKK 2024 | BAYU</p>
     </footer>
 

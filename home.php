@@ -15,13 +15,20 @@ if (!isset($_SESSION['userid'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Landing</title>
+    <title>Halaman Home</title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+     
+    <div class="container">
+        <div class="sun"></div>
+        <div class="earth">
+            <div class="moon"></div>
+</div>
+</div>
+    <nav class="navbar navbar-expand-lg bg-info">
         <div class="container">
             <a class="navbar-brand" href="index.php">Website Gallery Foto</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -123,7 +130,7 @@ if (!isset($_SESSION['userid'])) {
     </div>
 
 
-    <footer class="d-flex justify-content-center border-top mt-3 bg-light fixed-bottom">
+    <footer class="d-flex justify-content-center border-top mt-3 text-info bg-dark fixed-bottom">
         <p>&copy; UKK 2024 | BAYU</p>
     </footer>
 

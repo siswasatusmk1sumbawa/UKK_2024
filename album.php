@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Landing</title>
+    <title>Halaman Album</title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-info">
         <div class="container">
             <a class="navbar-brand" href="index.php">Website Gallery Foto</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,11 +49,11 @@
     </nav>
     <div class="container mt-3">
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             Tambah Data
         </button>
         <div class="card mt-2">
-            <div class="card-header text-bg-primary">Data Album</div>
+            <div class="card-header text-bg-info">Data Album</div>
             <div class="card-body">
                 <table id="example" class="table table-striped" style="width:100%">
                     <thead>
@@ -140,7 +140,7 @@
     </div>
 
 
-    <footer class="d-flex justify-content-center border-top mt-3 bg-light fixed-bottom">
+    <footer class="d-flex justify-content-center border-top mt-3 text-info bg-dark fixed-bottom">
         <p>&copy; UKK 2024 | BAYU</p>
     </footer>
 
